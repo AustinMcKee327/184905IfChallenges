@@ -1,0 +1,24 @@
+﻿<Window x:Class="_184905IfChallenges.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_184905IfChallenges"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel>
+        <TextBox x:Name="LetterBox" MaxLength="1"/>
+        <Button x:Name="CaseCheck" Content="Case Checker" Click="CaseCheck_Click"/>
+        <TextBox x:Name="DivideBox"/>
+        <Button x:Name="EvenOddChecker" Content="Even Odd Checker" Click="EvenOddChecker_Click"/>
+        <TextBox x:Name="CharacterTypeBox" MaxLength="1"/>
+        <Button x:Name="CharacterTypeChecker" Content="Type of Symbol Checker" Click="CharacterTypeChecker_Click"/>
+        <TextBox x:Name="VowelChecker" MaxLength="1"/>
+        <Button x:Name="VowelButton" Content="Vowel or Consonant?" Click="VowelButton_Click"/>
+        <TextBox x:Name="AlphabetBox" MaxLength="1"/>
+        <Button x:Name="AlphabetChecker" Content="Is it a Letter in the alphabet?" Click="AlphabetChecker_Click"/>
+        <TextBox x:Name="Name2"/>
+        <Button x:Name="Name"/>
+        <Label x:Name="OutputLabel"/>
+    </StackPanel>
+</Window>
